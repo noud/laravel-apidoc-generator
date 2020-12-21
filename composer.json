@@ -18,9 +18,9 @@
         "php": ">=7.2.0",
         "ext-json": "*",
         "fzaninotto/faker": "^1.8",
-        "illuminate/console": "^5.7|^6.0|^7.0|^8.0",
-        "illuminate/routing": "^5.7|^6.0|^7.0|^8.0",
-        "illuminate/support": "^5.7|^6.0|^7.0|^8.0",
+        "illuminate/console": "dev-develop-8.x",
+        "illuminate/routing": "dev-develop-8.x",
+        "illuminate/support": "dev-develop-8.x",
         "league/flysystem": "^1.0",
         "mpociot/documentarian": "^0.4.0",
         "mpociot/reflection-docblock": "^1.0.1",
@@ -67,5 +67,11 @@
     "config": {
         "preferred-install": "dist",
         "sort-packages": true
-    }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../framework"
+        }
+    ]
 }
